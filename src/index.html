@@ -11,12 +11,12 @@
            <div class="logo">Андрей Браун</div>
            <div class="menu">
                <ul class="menu-list">
-                   <il class="menu-list-item">Обо мне</il>
-                   <il class="menu-list-item">Услуги</il>
-                   <il class="menu-list-item">Кейсы</il>
-                   <il class="menu-list-item">Прайсы</il>
-                   <il class="menu-list-item">Отзывы</il>
-                   <il class="menu-list-item">Контакты</il>
+                   <li class="menu-list-item">Обо мне</li>
+                   <li class="menu-list-item">Услуги</li>
+                   <li class="menu-list-item">Кейсы</li>
+                   <li class="menu-list-item">Прайсы</li>
+                   <li class="menu-list-item">Отзывы</li>
+                   <li class="menu-list-item">Контакты</li>
                </ul>
            </div>
        </nav>
@@ -54,37 +54,30 @@
                 <h3>ЧТО Я УМЕЮ</h3>
             </div>
 
-            <div class="skills-content">
-                <ul class="skills-list">
-                    <il class="skills-list-item">
-                        <div class="skill-card">
-                            <img class="skill-img" src="" alt="web-design">
-                            <h4 class="skill-title">Веб-дизайн</h4>
-                            <p class="skill-description">Lorem ipsum dolor sit amet placerat facilisis felis mi in tempus eleifend pellentesque natoque etiam.</p>
-                        </div>
-                    </il>
-                    <il class="skills-list-item">
-                        <div class="skill-card">
-                            <img class="skill-img" src="" alt="develop">
-                            <h4 class="skill-title">Разработка</h4>
-                            <p class="skill-description">Lorem ipsum dolor sit amet placerat facilisis felis mi in tempus eleifend pellentesque natoque etiam.</p>
-                        </div>
-                    </il>
-                    <il class="skills-list-item">
-                        <div class="skill-card">
-                            <img class="skill-img" src="" alt="ceo-optima">
-                            <h4 class="skill-title">CEO-Оптимизация</h4>
-                            <p class="skill-description">Lorem ipsum dolor sit amet placerat facilisis felis mi in tempus eleifend pellentesque natoque etiam.</p>
-                        </div>
-                    </il>
-                    <il class="skills-list-item">
-                        <div class="skill-card">
-                            <img class="skill-img" src="" alt="marketing">
-                            <h4 class="skill-title">Маркетинг</h4>
-                            <p class="skill-description">Lorem ipsum dolor sit amet placerat facilisis felis mi in tempus eleifend pellentesque natoque etiam.</p>
-                        </div>
-                    </il>
-                </ul>
+            <div class="skills-list">
+                <div class="skill-card">
+                    <img class="skill-img" src="" alt="web-design">
+                    <h4 class="skill-title">Веб-дизайн</h4>
+                    <p class="skill-description">Lorem ipsum dolor sit amet placerat facilisis felis mi in tempus eleifend pellentesque natoque etiam.</p>
+                </div>
+
+                <div class="skill-card">
+                    <img class="skill-img" src="" alt="develop">
+                    <h4 class="skill-title">Разработка</h4>
+                    <p class="skill-description">Lorem ipsum dolor sit amet placerat facilisis felis mi in tempus eleifend pellentesque natoque etiam.</p>
+                </div>
+
+                <div class="skill-card">
+                    <img class="skill-img" src="" alt="ceo-optima">
+                    <h4 class="skill-title">CEO-Оптимизация</h4>
+                    <p class="skill-description">Lorem ipsum dolor sit amet placerat facilisis felis mi in tempus eleifend pellentesque natoque etiam.</p>
+                </div>
+
+                <div class="skill-card">
+                    <img class="skill-img" src="" alt="marketing">
+                    <h4 class="skill-title">Маркетинг</h4>
+                    <p class="skill-description">Lorem ipsum dolor sit amet placerat facilisis felis mi in tempus eleifend pellentesque natoque etiam.</p>
+                </div>
             </div>
         </div>
 
@@ -93,6 +86,7 @@
                 <h2 class="cases-title">Кейсы</h2>
                 <p class="cases-description">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed Dapibus leo nec omare diamcoccodo nibh ante facilisis.</p>
             </div>
+            <a href="#"><img src="" alt="prev"></a>
             <div class="cases-list">
                 <div class="cases-list-item">
                     <img class="case-image" src="" alt="site1">
@@ -110,35 +104,28 @@
                     </div>
                 </div>
             </div>
-            <a href="#">VISIT LIVE SITE</a>
+            <a href="#"><img src="" alt="next"></a>
+            <a href="#" target="_blank">VISIT LIVE SITE</a>
         </div>
 
         <div class="price">
             <h3 class="price-title">Расчет стоимости</h3>
-            <div class="price-criteria">
+            <form>
                 <h4 class="price-criteria-title">ТИП САЙТА</h4>
-                <ul class="price-list">
-                    <li class="price-list-item">Выберите пункт...</li>
-                    <li class="price-list-item">Визитка</li>
-                    <li class="price-list-item">Корпоративный</li>
-                </ul>
-            </div>
-
-            <div class="price-criteria">
+                <select name="type-list" id="type-list">
+                    <option value="">Выберите пункт...</option>
+                    <option value="type-price1">Сайт-визитка</option>
+                    <option value="type-price2">Корпоративный сайт</option>
+                </select>
                 <h4 class="price-criteria-title">ДИЗАЙН</h4>
-                <ul class="price-list">
-                   <li class="price-list-item">Выберите пункт...</li>
-                    <li class="price-list-item">...</li>
-                </ul>
-            </div>
-
-            <div class="price-criteria">
-                <h4 class="price-criteria-title">Адаптивность</h4>
-                <ul class="price-list">
-                   <li class="price-list-item">Выберите пункт...</li>
-                    <li class="price-list-item">...</li>
-                </ul>
-            </div>
+                <select name="design-list" id="design-list">
+                    <option value="">Выберите пункт...</option>
+                </select>
+                <h4 class="price-criteria-title">АДАПТИВНОСТЬ</h4>
+                <select name="adaptive-list" id="adaptive-list">
+                    <option value="">Выберите пункт...</option>
+                </select>
+            </form>
 
             <div class="price-results">
                 <div class="price-result-terms">
@@ -156,39 +143,29 @@
            <div class="statistic-title">
                <h3>НЕМНОГО СТАТИСТИКИ</h3>
            </div>
-            <ul class="statistic-list">
-                <il class="statistic-list-item">
-                    <div class="statistic-card">
-                        <img class="statistic-img" src="" alt="smile">
-                        <h4 class="statistic-title">120</h4>
-                        <p class="statistic-description">СЧАСТЛИВЫХ КЛИЕНТОВ</p>
-                    </div>
-                </il>
+            <div class="statistic-card">
+                <img class="statistic-img" src="" alt="smile">
+                <h4 class="statistic-title">120</h4>
+                <p class="statistic-description">СЧАСТЛИВЫХ КЛИЕНТОВ</p>
+            </div>
 
-                <il class="statistic-list-item">
-                    <div class="statistic-card">
-                        <img class="statistic-img" src="" alt="code_time">
-                        <h4 class="statistic-title">4600</h4>
-                        <p class="statistic-description">ЧАСОВ РАБОТЫ</p>
-                    </div>
-                </il>
+            <div class="statistic-card">
+                <img class="statistic-img" src="" alt="code_time">
+                <h4 class="statistic-title">4600</h4>
+                <p class="statistic-description">ЧАСОВ РАБОТЫ</p>
+            </div>
 
-                <il class="statistic-list-item">
-                    <div class="statistic-card">
-                        <img class="statistic-img" src="" alt="complited">
-                        <h4 class="statistic-title">340</h4>
-                        <p class="statistic-description">ПРОЕКТОВ ЗАВЕРШЕНО</p>
-                    </div>
-                </il>
+            <div class="statistic-card">
+                <img class="statistic-img" src="" alt="complited">
+                <h4 class="statistic-title">340</h4>
+                <p class="statistic-description">ПРОЕКТОВ ЗАВЕРШЕНО</p>
+            </div>
 
-                <il class="statistic-list-item">
-                    <div class="statistic-card">
-                        <img class="statistic-img" src="" alt="reward">
-                        <h4 class="statistic-title">23</h4>
-                        <p class="statistic-description">НАГРАД ПОЛУЧЕНО</p>
-                    </div>
-                </il>
-            </ul>
+            <div class="statistic-card">
+                <img class="statistic-img" src="" alt="reward">
+                <h4 class="statistic-title">23</h4>
+                <p class="statistic-description">НАГРАД ПОЛУЧЕНО</p>
+            </div>
         </div>
 
         <div class="rewiews-content">
@@ -196,12 +173,19 @@
                 <h3>ОТЗЫВЫ</h3>
             </div>
 
-            <div class="rewiev-list">
-                <div class="rewiev-card">
-                    <img src="" alt="user1">
-                    <p class="rewiew-desc">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec omare diam. Sed commodo nibh ante facilisis bibendum dolor feugiat at duis sed dapibus leo nec omare diam commodo nibh</p>
-                    <p class="rewiew-user"><b>Михаил</b>, Ген директор ПАО "Газпром".</p>
+            <div class="rewiev-wrapper">
+                <div class="slider-wrapper">
+                    <div class="rewiev-list">
+                        <div class="rewiev-card">
+                            <img src="" alt="user1">
+                            <p class="rewiew-desc">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec omare diam. Sed commodo nibh ante facilisis bibendum dolor feugiat at duis sed dapibus leo nec omare diam commodo nibh</p>
+                            <p class="rewiew-user"><b>Михаил</b>, Ген директор ПАО "Газпром".</p>
+                        </div>
+                    </div>
                 </div>
+                <input checked type=radio name="slider" id="slide1">
+                <input type=radio name="slider" id="slide2">
+                <input type=radio name="slider" id="slide3">
             </div>
         </div>
 
@@ -212,54 +196,35 @@
 
             <div class="contacts-content">
                 <h4>Lorem ipsum dolor sit amet, consectetur adipiscing elit duis sed Dapibus leo nec omare diamcoccodo</h4>
-                <ul class="contacts-list">
-                    <il>
-                        <div class="contact-card">
-                            <img class="contact-img" src="" alt="address">
-                            <h4 class="contact-desc">Санкт-Петербург Невский проспект 11</h4>
-                        </div>
-                    </il>
-                    <il>
-                        <div class="contact-card">
-                            <img class="contact-img" src="" alt="email">
-                            <h4 class="contact-desc">info@companyname.com</h4>
-                        </div>
-                    </il>
-                    <il>
-                        <div class="contact-card">
-                            <img class="contact-img" src="" alt="phone">
-                            <h4 class="contact-desc">+7 999 999-99-99</h4>
-                        </div>
-                    </il>
-                </ul>
+                <div class="contact-card">
+                    <img class="contact-img" src="" alt="address">
+                    <h4 class="contact-desc">Санкт-Петербург Невский проспект 11</h4>
+                </div>
+                <div class="contact-card">
+                    <img class="contact-img" src="" alt="email">
+                    <h4 class="contact-desc">info@companyname.com</h4>
+                </div>
+                <div class="contact-card">
+                    <img class="contact-img" src="" alt="phone">
+                    <h4 class="contact-desc">+7 999 999-99-99</h4>
+                </div>
+
                 <form action="#">
                     <h4>ОСТАВЬТЕ МНЕ СООБЩЕНИЕ</h4>
                     <input class="user-name-input" type="text" name="user-name" placeholder="Имя">
                     <input class="user-email-input" type="email" name="email" placeholder="Email">
-                    <input class="user-message-input" type="text" name="message" placeholder="Сообщение">
+                    <textarea class="user-message-input" placeholder="Сообщение..."></textarea>
                     <input class="message-input-btn" type="submit" value="Отправить">
                 </form>
-                
-                <ul class="contacts-links">
-                    <il>
-                        <img src="" alt="facebook">
-                    </il>
-                    <il>
-                        <img src="" alt="twitter">
-                    </il>
-                    <il>
-                        <img src="" alt="ball">
-                    </il>
-                    <il>
-                        <img src="" alt="github">
-                    </il>
-                    <il>
-                        <img src="" alt="inst">
-                    </il>
-                    <il>
-                        <img src="" alt="in">
-                    </il>
-                </ul>
+
+                <div class="contacts-links">
+                    <a href="#"><img src="" alt="facebook"></a>
+                    <a href="#"><img src="" alt="twitter"></a>
+                    <a href="#"><img src="" alt="ball"></a>
+                    <a href="#"><img src="" alt="github"></a>
+                    <a href="#"><img src="" alt="inst"></a>
+                    <a href="#"><img src="" alt="in"></a>
+                </div>
             </div>
             <div class="maps">
                 ...
