@@ -3,32 +3,271 @@
 <head>
     <meta charset="UTF-8">
     <title>Андрей Браун</title>
+    <!--<link rel="stylesheet" href="css/style.css">-->
 </head>
 <body>
-   <header>
+   <header class="header">
        <nav>
            <div class="logo">Андрей Браун</div>
            <div class="menu">
-               <ul>
-                   <li>Обо мне</li>
-                   <li>Услуги</li>
-                   <li>Кейсы</li>
-                   <li>Прайсы</li>
-                   <li>Отзывы</li>
-                   <li>Контакты</li>
+               <ul class="menu-list">
+                   <il class="menu-list-item">Обо мне</il>
+                   <il class="menu-list-item">Услуги</il>
+                   <il class="menu-list-item">Кейсы</il>
+                   <il class="menu-list-item">Прайсы</il>
+                   <il class="menu-list-item">Отзывы</il>
+                   <il class="menu-list-item">Контакты</il>
                </ul>
            </div>
        </nav>
    </header>
-   
-   <div class="main">
-       <div class="title_container">
-           <h1>Привет<br> Я Андрей Браун</h1>
-           <h4>Фулл стек веб-разработчик</h4>
-           <input type="submit" value="Обо мне">
-           <input type="submit" value="Мои работы">
+   <main>
+       <div class="main">
+           <div class="title_container">
+               <h1>Привет<br> Я Андрей Браун</h1>
+               <h4>Фулл стек веб-разработчик</h4>
+               <input type="submit" value="Обо мне">
+               <input type="submit" value="Мои работы">
+           </div>
        </div>
-   </div>
-    
+
+       <div class="about">
+          <div class="about-title-container">
+              <h3 class="about-title">ОБО МНЕ</h3>
+          </div>
+          <div class="about-content">
+               <img class="about-img" src="" alt="мое фото">
+
+               <p class="about-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec omare diam. Sed commodo nibh ante facilisis bibendum dolor feugiat at. Duis sed dapibus leo nec omare diam commodo nibh</p>
+
+               <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec omare diam. Sed commodo nibh ante facilisis bibendum dolor feugiat at. Duis sed dapibus leo nec omare diam commodo nibh</p>
+
+                <a class="about-download-btn" href="#">
+                    <img class="about-download-icon" src="" alt="d-img">
+                    <span>Скачать резюме</span>
+                </a>
+           </div>
+       </div>
+
+        <div class="skills">
+            <div class="skills-title">
+                <h3>ЧТО Я УМЕЮ</h3>
+            </div>
+
+            <div class="skills-content">
+                <ul class="skills-list">
+                    <il class="skills-list-item">
+                        <div class="skill-card">
+                            <img class="skill-img" src="" alt="web-design">
+                            <h4 class="skill-title">Веб-дизайн</h4>
+                            <p class="skill-description">Lorem ipsum dolor sit amet placerat facilisis felis mi in tempus eleifend pellentesque natoque etiam.</p>
+                        </div>
+                    </il>
+                    <il class="skills-list-item">
+                        <div class="skill-card">
+                            <img class="skill-img" src="" alt="develop">
+                            <h4 class="skill-title">Разработка</h4>
+                            <p class="skill-description">Lorem ipsum dolor sit amet placerat facilisis felis mi in tempus eleifend pellentesque natoque etiam.</p>
+                        </div>
+                    </il>
+                    <il class="skills-list-item">
+                        <div class="skill-card">
+                            <img class="skill-img" src="" alt="ceo-optima">
+                            <h4 class="skill-title">CEO-Оптимизация</h4>
+                            <p class="skill-description">Lorem ipsum dolor sit amet placerat facilisis felis mi in tempus eleifend pellentesque natoque etiam.</p>
+                        </div>
+                    </il>
+                    <il class="skills-list-item">
+                        <div class="skill-card">
+                            <img class="skill-img" src="" alt="marketing">
+                            <h4 class="skill-title">Маркетинг</h4>
+                            <p class="skill-description">Lorem ipsum dolor sit amet placerat facilisis felis mi in tempus eleifend pellentesque natoque etiam.</p>
+                        </div>
+                    </il>
+                </ul>
+            </div>
+        </div>
+
+        <div class="cases">
+            <div class="cases-title-conteiner">
+                <h2 class="cases-title">Кейсы</h2>
+                <p class="cases-description">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed Dapibus leo nec omare diamcoccodo nibh ante facilisis.</p>
+            </div>
+            <div class="cases-list">
+                <div class="cases-list-item">
+                    <img class="case-image" src="" alt="site1">
+                    <div class="case-info">
+                       <div class="case-client">
+                            <h4 class="case-client-title">CLIENT</h4>
+                            <p class="case-client-name">Какая-то компания</p>
+                            <h4 class="case-site-title">WEBSITE</h4>
+                            <p class="case-site-name">http://www.somedomain.com</p>
+                        </div>
+                        <div class="case-name-description">
+                            <h4 class="case-name">Название проекта</h4>
+                            <p class="case-description">Описание</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <a href="#">VISIT LIVE SITE</a>
+        </div>
+
+        <div class="price">
+            <h3 class="price-title">Расчет стоимости</h3>
+            <div class="price-criteria">
+                <h4 class="price-criteria-title">ТИП САЙТА</h4>
+                <ul class="price-list">
+                    <li class="price-list-item">Выберите пункт...</li>
+                    <li class="price-list-item">Визитка</li>
+                    <li class="price-list-item">Корпоративный</li>
+                </ul>
+            </div>
+
+            <div class="price-criteria">
+                <h4 class="price-criteria-title">ДИЗАЙН</h4>
+                <ul class="price-list">
+                   <li class="price-list-item">Выберите пункт...</li>
+                    <li class="price-list-item">...</li>
+                </ul>
+            </div>
+
+            <div class="price-criteria">
+                <h4 class="price-criteria-title">Адаптивность</h4>
+                <ul class="price-list">
+                   <li class="price-list-item">Выберите пункт...</li>
+                    <li class="price-list-item">...</li>
+                </ul>
+            </div>
+
+            <div class="price-results">
+                <div class="price-result-terms">
+                    <span class="price-results-span">Сроки</span>
+                    <span class="price-results-number">0</span>
+                </div>
+                <div class="price-result-terms">
+                    <span class="price-results-span">Стоимость</span>
+                    <span class="price-results-number">0</span>
+                </div>
+            </div>
+        </div>
+
+        <div class="statistic-content">
+           <div class="statistic-title">
+               <h3>НЕМНОГО СТАТИСТИКИ</h3>
+           </div>
+            <ul class="statistic-list">
+                <il class="statistic-list-item">
+                    <div class="statistic-card">
+                        <img class="statistic-img" src="" alt="smile">
+                        <h4 class="statistic-title">120</h4>
+                        <p class="statistic-description">СЧАСТЛИВЫХ КЛИЕНТОВ</p>
+                    </div>
+                </il>
+
+                <il class="statistic-list-item">
+                    <div class="statistic-card">
+                        <img class="statistic-img" src="" alt="code_time">
+                        <h4 class="statistic-title">4600</h4>
+                        <p class="statistic-description">ЧАСОВ РАБОТЫ</p>
+                    </div>
+                </il>
+
+                <il class="statistic-list-item">
+                    <div class="statistic-card">
+                        <img class="statistic-img" src="" alt="complited">
+                        <h4 class="statistic-title">340</h4>
+                        <p class="statistic-description">ПРОЕКТОВ ЗАВЕРШЕНО</p>
+                    </div>
+                </il>
+
+                <il class="statistic-list-item">
+                    <div class="statistic-card">
+                        <img class="statistic-img" src="" alt="reward">
+                        <h4 class="statistic-title">23</h4>
+                        <p class="statistic-description">НАГРАД ПОЛУЧЕНО</p>
+                    </div>
+                </il>
+            </ul>
+        </div>
+
+        <div class="rewiews-content">
+            <div class="rewievs-title">
+                <h3>ОТЗЫВЫ</h3>
+            </div>
+
+            <div class="rewiev-list">
+                <div class="rewiev-card">
+                    <img src="" alt="user1">
+                    <p class="rewiew-desc">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec omare diam. Sed commodo nibh ante facilisis bibendum dolor feugiat at duis sed dapibus leo nec omare diam commodo nibh</p>
+                    <p class="rewiew-user"><b>Михаил</b>, Ген директор ПАО "Газпром".</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="contacts">
+            <div class="contacts-title">
+                <h3>МОИ КОНТАКТЫ</h3>
+            </div>
+
+            <div class="contacts-content">
+                <h4>Lorem ipsum dolor sit amet, consectetur adipiscing elit duis sed Dapibus leo nec omare diamcoccodo</h4>
+                <ul class="contacts-list">
+                    <il>
+                        <div class="contact-card">
+                            <img class="contact-img" src="" alt="address">
+                            <h4 class="contact-desc">Санкт-Петербург Невский проспект 11</h4>
+                        </div>
+                    </il>
+                    <il>
+                        <div class="contact-card">
+                            <img class="contact-img" src="" alt="email">
+                            <h4 class="contact-desc">info@companyname.com</h4>
+                        </div>
+                    </il>
+                    <il>
+                        <div class="contact-card">
+                            <img class="contact-img" src="" alt="phone">
+                            <h4 class="contact-desc">+7 999 999-99-99</h4>
+                        </div>
+                    </il>
+                </ul>
+                <form action="#">
+                    <h4>ОСТАВЬТЕ МНЕ СООБЩЕНИЕ</h4>
+                    <input class="user-name-input" type="text" name="user-name" placeholder="Имя">
+                    <input class="user-email-input" type="email" name="email" placeholder="Email">
+                    <input class="user-message-input" type="text" name="message" placeholder="Сообщение">
+                    <input class="message-input-btn" type="submit" value="Отправить">
+                </form>
+                
+                <ul class="contacts-links">
+                    <il>
+                        <img src="" alt="facebook">
+                    </il>
+                    <il>
+                        <img src="" alt="twitter">
+                    </il>
+                    <il>
+                        <img src="" alt="ball">
+                    </il>
+                    <il>
+                        <img src="" alt="github">
+                    </il>
+                    <il>
+                        <img src="" alt="inst">
+                    </il>
+                    <il>
+                        <img src="" alt="in">
+                    </il>
+                </ul>
+            </div>
+            <div class="maps">
+                ...
+            </div>
+       </div>
+    </main>
+    <footer>
+        <h4>Copyright © 2021 Андрей Браун. Design by Web</h4>
+    </footer>
 </body>
 </html>
