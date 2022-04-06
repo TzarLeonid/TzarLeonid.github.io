@@ -3,7 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <title>Андрей Браун</title>
-    <!--<link rel="stylesheet" href="css/style.css">-->
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
    <header class="header">
@@ -21,109 +22,119 @@
            </div>
        </nav>
    </header>
-   <main>
-       <div class="main">
-           <div class="title_container">
+   <main class="main">
+       <div class="main-block">
+           <div class="main-title-container">
                <h1>Привет<br> Я Андрей Браун</h1>
                <h4>Фулл стек веб-разработчик</h4>
-               <input type="submit" value="Обо мне">
-               <input type="submit" value="Мои работы">
+               <input class="main-but" type="submit" value="Обо мне">
+               <input class="main-but" type="submit" value="Мои работы">
            </div>
        </div>
 
        <div class="about">
-          <div class="about-title-container">
-              <h3 class="about-title">ОБО МНЕ</h3>
+          <div class="title-container">
+              <h3 class="title-h3">ОБО МНЕ</h3>
+              <img class="title-line" src="img/line.png" alt="">
           </div>
           <div class="about-content">
-               <img class="about-img" src="" alt="мое фото">
+               <img class="about-img" src="img/mini-boy.png" alt="мое фото">
 
                <p class="about-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec omare diam. Sed commodo nibh ante facilisis bibendum dolor feugiat at. Duis sed dapibus leo nec omare diam commodo nibh</p>
 
                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec omare diam. Sed commodo nibh ante facilisis bibendum dolor feugiat at. Duis sed dapibus leo nec omare diam commodo nibh</p>
 
-                <a class="about-download-btn" href="#">
-                    <img class="about-download-icon" src="" alt="d-img">
-                    <span>Скачать резюме</span>
-                </a>
+                <div class="about-btn">
+                    <a class="about-download-btn" href="#">
+                        <img class="about-download-icon" src="img/download.png" alt="d-img">
+                        <span>Скачать резюме</span>
+                    </a>
+                </div>
            </div>
        </div>
 
-        <div class="skills">
-            <div class="skills-title">
-                <h3>ЧТО Я УМЕЮ</h3>
+       <div class="skills">
+            <div class="title-container">
+                <h3 class="title-h3">ЧТО Я УМЕЮ</h3>
+                <img class="title-line" src="img/line.png" alt="">
             </div>
 
             <div class="skills-list">
                 <div class="skill-card">
-                    <img class="skill-img" src="" alt="web-design">
+                    <img class="skill-img" src="img/notebook.png" alt="web-design">
                     <h4 class="skill-title">Веб-дизайн</h4>
                     <p class="skill-description">Lorem ipsum dolor sit amet placerat facilisis felis mi in tempus eleifend pellentesque natoque etiam.</p>
                 </div>
 
                 <div class="skill-card">
-                    <img class="skill-img" src="" alt="develop">
+                    <img class="skill-img" src="img/code.png" alt="develop">
                     <h4 class="skill-title">Разработка</h4>
-                    <p class="skill-description">Lorem ipsum dolor sit amet placerat facilisis felis mi in tempus eleifend pellentesque natoque etiam.</p>
+                    <p class="skill-description">Lorem ipsum dolor sit amet placerat facilisis mi in tempus eleifend pellentesque.</p>
                 </div>
 
                 <div class="skill-card">
-                    <img class="skill-img" src="" alt="ceo-optima">
+                    <img class="skill-img" src="img/rocket.png" alt="ceo-optima">
                     <h4 class="skill-title">CEO-Оптимизация</h4>
                     <p class="skill-description">Lorem ipsum dolor sit amet placerat facilisis felis mi in tempus eleifend pellentesque natoque etiam.</p>
                 </div>
 
                 <div class="skill-card">
-                    <img class="skill-img" src="" alt="marketing">
+                    <img class="skill-img" src="img/marketing.png" alt="marketing">
                     <h4 class="skill-title">Маркетинг</h4>
-                    <p class="skill-description">Lorem ipsum dolor sit amet placerat facilisis felis mi in tempus eleifend pellentesque natoque etiam.</p>
+                    <p class="skill-description">Lorem ipsum dolor sit amet placerat facilisis felis mi in tempus eleifend pellentesque natoque.</p>
                 </div>
             </div>
-        </div>
+       </div>
 
-        <div class="cases">
-            <div class="cases-title-conteiner">
-                <h2 class="cases-title">Кейсы</h2>
-                <p class="cases-description">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed Dapibus leo nec omare diamcoccodo nibh ante facilisis.</p>
+       <div class="cases">
+            <div class="title-container">
+                <h3 class="title-h3">Кейсы</h3>
+                <img class="title-line" src="img/line.png" alt="">
             </div>
-            <a href="#"><img src="" alt="prev"></a>
+            <p class="cases-description">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed Dapibus leo nec omare diamcoccodo nibh ante facilisis.</p>
+
+           <!--<a href="#"><img src="" alt="prev"></a>-->
             <div class="cases-list">
                 <div class="cases-list-item">
-                    <img class="case-image" src="" alt="site1">
+                    <img class="case-image" src="img/case1.png" alt="site1">
                     <div class="case-info">
                        <div class="case-client">
-                            <h4 class="case-client-title">CLIENT</h4>
-                            <p class="case-client-name">Какая-то компания</p>
-                            <h4 class="case-site-title">WEBSITE</h4>
-                            <p class="case-site-name">http://www.somedomain.com</p>
+                            <h4 class="case-info-title">CLIENT: </h4>
+                            <p class="case-info-desc">Какая-то компания</p>
+                            <h4 class="case-info-title">WEBSITE: </h4>
+                            <p class="case-info-desc">http://www.somedomain.com</p>
                         </div>
                         <div class="case-name-description">
-                            <h4 class="case-name">Название проекта</h4>
-                            <p class="case-description">Описание</p>
+                            <h4 class="case-info-title">Название проекта</h4>
+                            <p class="case-info-desc">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est possimus eligendi ab sint, recusandae eos voluptates officia, alias rerum amet veritatis molestiae accusamus deleniti eum, repellendus deserunt totam, adipisci quae error similique. Soluta voluptatem vitae inventore maiores blanditiis voluptate velit voluptas alias corporis debitis voluptatum reprehenderit dignissimos mollitia tenetur perferendis impedit ipsa esse, nisi quaerat dolore veritatis ad iure itaque.</p>
                         </div>
+                    </div>
+                    <div class="visit-but">
+                        <a href="#" target="_blank">VISIT LIVE SITE</a>
                     </div>
                 </div>
             </div>
-            <a href="#"><img src="" alt="next"></a>
-            <a href="#" target="_blank">VISIT LIVE SITE</a>
-        </div>
+            <!--<a href="#"><img src="" alt="next"></a>-->
+       </div>
 
-        <div class="price">
-            <h3 class="price-title">Расчет стоимости</h3>
-            <form>
+       <div class="price">
+           <div class="title-container">
+                <h3 class="price-title">Расчет стоимости</h3>
+           </div>
+           <form class="price-form">
                 <h4 class="price-criteria-title">ТИП САЙТА</h4>
-                <select name="type-list" id="type-list">
-                    <option value="">Выберите пункт...</option>
-                    <option value="type-price1">Сайт-визитка</option>
-                    <option value="type-price2">Корпоративный сайт</option>
+                <select class="price-list" name="type-list" id="type-list">
+                    <option class="price-list-item" value="">Выберите пункт...</option>
+                    <option class="price-list-item" value="type-price1">Сайт-визитка</option>
+                    <option class="price-list-item" value="type-price2">Корпоративный сайт</option>
                 </select>
                 <h4 class="price-criteria-title">ДИЗАЙН</h4>
-                <select name="design-list" id="design-list">
-                    <option value="">Выберите пункт...</option>
+                <select class="price-list" name="design-list" id="design-list">
+                    <option class="price-list-item" value="">Выберите пункт...</option>
                 </select>
                 <h4 class="price-criteria-title">АДАПТИВНОСТЬ</h4>
-                <select name="adaptive-list" id="adaptive-list">
-                    <option value="">Выберите пункт...</option>
+                <select class="price-list" name="adaptive-list" id="adaptive-list">
+                    <option class="price-list-item" value="">Выберите пункт...</option>
                 </select>
             </form>
 
@@ -137,79 +148,87 @@
                     <span class="price-results-number">0</span>
                 </div>
             </div>
-        </div>
+       </div>
 
-        <div class="statistic-content">
-           <div class="statistic-title">
-               <h3>НЕМНОГО СТАТИСТИКИ</h3>
+       <div class="statistic-content">
+           <div class="title-container">
+               <h3 class="title-h3">НЕМНОГО СТАТИСТИКИ</h3>
+               <img class="title-line" src="img/line.png" alt="">
            </div>
-            <div class="statistic-card">
-                <img class="statistic-img" src="" alt="smile">
-                <h4 class="statistic-title">120</h4>
-                <p class="statistic-description">СЧАСТЛИВЫХ КЛИЕНТОВ</p>
-            </div>
+           <div class="statistic-list">
+                <div class="statistic-card">
+                    <img class="statistic-img" src="img/smile.png" alt="smile">
+                    <h4 class="statistic-title">120</h4>
+                    <p class="statistic-description">СЧАСТЛИВЫХ КЛИЕНТОВ</p>
+                </div>
 
-            <div class="statistic-card">
-                <img class="statistic-img" src="" alt="code_time">
-                <h4 class="statistic-title">4600</h4>
-                <p class="statistic-description">ЧАСОВ РАБОТЫ</p>
-            </div>
+                <div class="statistic-card">
+                    <img class="statistic-img" src="img/code-hour.png" alt="code_time">
+                    <h4 class="statistic-title">4600</h4>
+                    <p class="statistic-description">ЧАСОВ РАБОТЫ</p>
+                </div>
 
-            <div class="statistic-card">
-                <img class="statistic-img" src="" alt="complited">
-                <h4 class="statistic-title">340</h4>
-                <p class="statistic-description">ПРОЕКТОВ ЗАВЕРШЕНО</p>
-            </div>
+                <div class="statistic-card">
+                    <img class="statistic-img" src="img/done.png" alt="complited">
+                    <h4 class="statistic-title">340</h4>
+                    <p class="statistic-description">ПРОЕКТОВ ЗАВЕРШЕНО</p>
+                </div>
 
-            <div class="statistic-card">
-                <img class="statistic-img" src="" alt="reward">
-                <h4 class="statistic-title">23</h4>
-                <p class="statistic-description">НАГРАД ПОЛУЧЕНО</p>
-            </div>
-        </div>
+                <div class="statistic-card">
+                    <img class="statistic-img" src="img/prize.png" alt="reward">
+                    <h4 class="statistic-title">23</h4>
+                    <p class="statistic-description">НАГРАД ПОЛУЧЕНО</p>
+                </div>
+           </div>
+       </div>
 
-        <div class="rewiews-content">
-            <div class="rewievs-title">
-                <h3>ОТЗЫВЫ</h3>
+       <div class="rewiews-content">
+            <div class="title-container">
+                <h3 class="title-h3">ОТЗЫВЫ</h3>
+                <img class="title-line" src="img/line.png" alt="">
             </div>
 
             <div class="rewiev-wrapper">
                 <div class="slider-wrapper">
                     <div class="rewiev-list">
                         <div class="rewiev-card">
-                            <img src="" alt="user1">
+                            <img class="rewiev-img" src="img/client1.png" alt="user1">
                             <p class="rewiew-desc">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec omare diam. Sed commodo nibh ante facilisis bibendum dolor feugiat at duis sed dapibus leo nec omare diam commodo nibh</p>
                             <p class="rewiew-user"><b>Михаил</b>, Ген директор ПАО "Газпром".</p>
                         </div>
                     </div>
                 </div>
-                <input checked type=radio name="slider" id="slide1">
-                <input type=radio name="slider" id="slide2">
-                <input type=radio name="slider" id="slide3">
+                <div class="rewiew-buttons">
+                    <input class="rewiev-but" checked type=radio name="slider" id="slide1">
+                    <input class="rewiev-but" type=radio name="slider" id="slide2">
+                    <input class="rewiev-but" type=radio name="slider" id="slide3">
+                </div>
             </div>
-        </div>
+       </div>
 
-        <div class="contacts">
-            <div class="contacts-title">
-                <h3>МОИ КОНТАКТЫ</h3>
+       <div class="contacts">
+            <div class="title-container">
+                <h3 class="title-h3">МОИ КОНТАКТЫ</h3>
+                <img class="title-line" src="img/line.png" alt="">
             </div>
 
-            <div class="contacts-content">
-                <h4>Lorem ipsum dolor sit amet, consectetur adipiscing elit duis sed Dapibus leo nec omare diamcoccodo</h4>
+           <h4>Lorem ipsum dolor sit amet, consectetur adipiscing elit duis sed Dapibus leo nec omare diamcoccodo</h4>
+
+           <div class="contacts-content">
                 <div class="contact-card">
-                    <img class="contact-img" src="" alt="address">
-                    <h4 class="contact-desc">Санкт-Петербург Невский проспект 11</h4>
+                    <img class="contact-img" src="img/gps.png" alt="address">
+                    <h4 class="contact-desc">Санкт-Петербург<br>Невский проспект 11</h4>
                 </div>
                 <div class="contact-card">
-                    <img class="contact-img" src="" alt="email">
+                    <img class="contact-img" src="img/email.png" alt="email">
                     <h4 class="contact-desc">info@companyname.com</h4>
                 </div>
                 <div class="contact-card">
-                    <img class="contact-img" src="" alt="phone">
+                    <img class="contact-img" src="img/phone.png" alt="phone">
                     <h4 class="contact-desc">+7 999 999-99-99</h4>
                 </div>
 
-                <form action="#">
+                <form class="contact-form" action="#">
                     <h4>ОСТАВЬТЕ МНЕ СООБЩЕНИЕ</h4>
                     <input class="user-name-input" type="text" name="user-name" placeholder="Имя">
                     <input class="user-email-input" type="email" name="email" placeholder="Email">
@@ -218,21 +237,21 @@
                 </form>
 
                 <div class="contacts-links">
-                    <a href="#"><img src="" alt="facebook"></a>
-                    <a href="#"><img src="" alt="twitter"></a>
-                    <a href="#"><img src="" alt="ball"></a>
-                    <a href="#"><img src="" alt="github"></a>
-                    <a href="#"><img src="" alt="inst"></a>
-                    <a href="#"><img src="" alt="in"></a>
+                    <a class="contact-icon-link" href="#"><img src="img/fb.png" alt="facebook"></a>
+                    <a class="contact-icon-link" href="#"><img src="img/twitter.png" alt="twitter"></a>
+                    <a class="contact-icon-link" href="#"><img src="img/ball.png" alt="ball"></a>
+                    <a class="contact-icon-link" href="#"><img src="img/github.png" alt="github"></a>
+                    <a class="contact-icon-link" href="#"><img src="img/inst.png" alt="inst"></a>
+                    <a class="contact-icon-link-last" href="#"><img src="img/in.png" alt="in"></a>
                 </div>
             </div>
-            <div class="maps">
-                ...
-            </div>
        </div>
-    </main>
-    <footer>
+       <div class="maps">
+           <img src="img/map-copy.png" alt="">
+       </div>
+   </main>
+   <footer>
         <h4>Copyright © 2021 Андрей Браун. Design by Web</h4>
-    </footer>
+   </footer>
 </body>
 </html>
