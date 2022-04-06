@@ -1,5 +1,5 @@
 # Ратников Леонид
 
-# web_course.github.io
+# TzarLeonid.github.io
 
 Сайт-визитка
